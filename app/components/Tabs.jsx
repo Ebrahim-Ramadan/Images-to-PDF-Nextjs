@@ -7,7 +7,7 @@ import { MainFunc } from './ImageConvert/MainFunc'
 
 export const ContentTabs = () => {
   const visitMe = () => {
-  window.open('https://github.com/Ebrahim-Ramadan')
+  window.open('https://github.com/Ebrahim-Ramadan/images-to-pdf-next.js-app')
 }
   return (
     <div className='ContentTabs'>
