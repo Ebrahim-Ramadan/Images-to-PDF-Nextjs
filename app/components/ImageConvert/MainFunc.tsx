@@ -2,7 +2,7 @@ import React, { ChangeEventHandler } from "react";
 import Image from 'next/image'
 import * as Helpers from "./helpers";
 import { CustomImage } from "./custom-image";
-
+import './style.css'
 export function MainFunc() {
   const [uploadedImages, setUploadedImages] = React.useState<CustomImage[]>([]);
 
@@ -45,7 +45,7 @@ export function MainFunc() {
               key={image.src} src={image.src} className="uploaded-image" alt="uploaded-image" />
           ))
         ) : (
-          <p>Upload some images...</p>
+          <p>You Can Upload some images Now...</p>
         )}
       </div>
 
