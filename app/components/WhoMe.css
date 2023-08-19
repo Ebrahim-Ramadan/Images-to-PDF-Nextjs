@@ -1,0 +1,28 @@
+@import '@radix-ui/colors/tomato.css';
+@import '@radix-ui/colors/indigo.css';
+
+.SeparatorRoot {
+  background-color: var(--tomato-11);
+}
+.SeparatorRoot[data-orientation='horizontal'] {
+  height: 1px;
+  width: 100%;
+}
+.SeparatorRoot[data-orientation='vertical'] {
+  height: 100%;
+  width: 1.5px;
+}
+
+.Text {
+  color: rgb(25, 25, 152);
+  font-weight: bold;
+  line-height: 5px;
+}
+.Textt {
+  font-weight: 500;
+  /* line-height: 5px; */
+}
+.Text a{
+  text-decoration: none;
+  color: var(--indigo-11);
+}
